@@ -25,9 +25,39 @@ teste.json é um payload que pode ser definido com várias transações a serem 
         },
         {
             "transaction":"Escola Mariana EE96119"
+        }
+    ]
+}
+```
+
+O response é um array de predictions contendo os scores de cada categoria para as transações informadas
+
+```json
+{
+    "predictions": [
+        {
+            "scores": [
+                0.998468816280365,
+                0.0007391551043838263,
+                0.0007919555064290762
+            ],
+            "classes": [
+                "alimentacao",
+                "servicos",
+                "educacao"
+            ]
         },
         {
-            "transaction":"udemy"
+            "scores": [
+                0.00027913309168070555,
+                0.001325673540122807,
+                0.9983951449394226
+            ],
+            "classes": [
+                "alimentacao",
+                "servicos",
+                "educacao"
+            ]
         }
     ]
 }
