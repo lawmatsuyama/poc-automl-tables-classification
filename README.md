@@ -65,8 +65,11 @@ O response é um array de predictions contendo os scores de cada categoria para 
 
 ### Visualizar o modelo no tensor board
 Os comandos abaixo foram extraídos das páginas
+
 https://cloud.google.com/community/tutorials/automl-tables-model-export
+
 https://www.tensorflow.org/install/pip#2.-create-a-virtual-environment-recommended
+
 
 
 Se não possuir o python instalado, usar os comandos abaixo
