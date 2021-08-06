@@ -72,6 +72,9 @@ sudo apt update
 sudo apt install python3-dev python3-pip python3-venv
 ```
 
+Criar o diretório abaixo na raiz do projeto:
+`mkdir converted_export`
+
 Criar o ambiente virtual com Python (recomendado):
 `python3 -m venv --system-site-packages ./venv`
 
