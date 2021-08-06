@@ -120,3 +120,8 @@ tensorboard --logdir=converted_export
 
 No browser, acessar a url:
 http://localhost:6006/
+
+Para sair do ambiente virtual:
+```
+deactivate
+```
