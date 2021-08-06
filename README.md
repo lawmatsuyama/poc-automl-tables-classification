@@ -2,7 +2,7 @@
 
 Poc automl tables para classificar gastos e recebimentos de extrato de conta bancária
 
-#Como executar:
+# Como executar:
 
 ```
 git clone git@github.com:lawmatsuyama/poc-automl-tables-classification.git
@@ -10,7 +10,7 @@ cd poc-automl-tables-classification
 docker build -t automl-classifier . && docker run -d -p 8080:8080 automl-classifier
 ```
 
-#Como usar:
+# Como usar:
 Com o container do docker em execução, podemos realizar um HTTP POST conforme abaixo
 
 `curl -X POST --data @teste.json http://localhost:8080/predict`
